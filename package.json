@@ -1,0 +1,12 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "to do list uygulamasi",
+  "main": "todolist.js",
+  "scripts": {
+    "start":"node todolist.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Omer Atli",
+  "license": "ISC"
+}
