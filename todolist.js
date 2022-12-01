@@ -1,4 +1,4 @@
-
+const port = process.env.PORT || 5000
 
 let toDos = [""]
 
@@ -53,6 +53,4 @@ function createNewElement (toDo) {
     }
     localStorage.setItem("toDos",JSON.stringify(toDos))
     toDoInput.value = ""
-  
-
 }
